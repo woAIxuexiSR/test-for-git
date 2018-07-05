@@ -24,3 +24,10 @@ git push -u origin master	//第一次推送到远程库
 git push origin master		//之后
 
 git clone git@github.com:[username]/[repository]
+
+git checkout -b dev		//创建分支并切换
+git branch dev
+git checkout dev		//切换分支
+git branch			//查看当前分支
+git merge dev			//合并分支
+
