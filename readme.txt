@@ -8,3 +8,5 @@ git commit -m "content"
 git status
 git diff [filename]
 
+git log
+
