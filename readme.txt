@@ -30,4 +30,9 @@ git branch dev
 git checkout dev		//切换分支
 git branch			//查看当前分支
 git merge dev			//合并分支
+git branch -d dev		//删除分支
+git branch -D dev		//强制删除未合并的分支
 
+git stash			//关于隐藏当前工作（未尝试）
+git stash list
+git stash pop
