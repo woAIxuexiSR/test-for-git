@@ -9,6 +9,7 @@ git status
 git diff [filename]	//查看修改
 
 git log		//查看版本库中版本
+git log --pretty=oneline
 
 git reset --hard HEAD^   (HEAD^^ HEAD~100)	//回退版本
 git reflog                       //查看所有提交版本历史
