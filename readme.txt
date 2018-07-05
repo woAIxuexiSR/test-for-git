@@ -16,3 +16,9 @@ git reflog                       //查看所有提交版本历史
 
 git checkout -- [filename]       //撤销工作区的修改
 git reset HEAD [filename]        //撤销暂存区的修改
+
+git rm [filename]
+
+git remote add origin git@github.com:[username]/[repository]
+git push -u origin master	//第一次推送到远程库
+git push origin master		//之后
